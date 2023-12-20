@@ -7,6 +7,8 @@
         <page name='4-NilCoalescing'/>
         <page name='5-Visitor'/>
         <page name='6-DecimalPlaces'/>
-        <page name='RegexSwift'/>
+        <page name='7-RegexSwift'/>
+        <page name='8-StructsVsClassMemory'/>
+        <page name='isEmptyOrNil'/>
     </pages>
 </playground>
