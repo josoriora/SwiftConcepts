@@ -12,5 +12,6 @@
         <page name='9-isEmptyOrNil'/>
         <page name='10-LazyWrappers'/>
         <page name='11-HighOrderFunctions'/>
+        <page name='12_XCExpectation'/>
     </pages>
 </playground>
