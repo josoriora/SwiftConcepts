@@ -1,6 +1,9 @@
 //: [Previous](@previous)
 
 /**
+ 
+ https://www.hackingwithswift.com/quick-start/concurrency
+ 
  Concurrency vs Paralelism
  
  Concurrency is running things in serial order giving the appearance that they are being done at the same time.

@@ -15,10 +15,12 @@ func fetchFavorites() async throws -> [Int] {
     return try JSONDecoder().decode([Int].self, from: data)
 }
 
-if let favorites = try? await fetchFavorites() {
-    print("Fetched \(favorites.count) favorites.")
-} else {
-    print("Failed to fetch favorites.")
+Task {
+    if let favorites = try? await fetchFavorites() {
+        print("Fetched \(favorites.count) favorites.")
+    } else {
+        print("Failed to fetch favorites.")
+    }
 }
 
 /*
