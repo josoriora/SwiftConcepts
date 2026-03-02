@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='1-ExampleRetainSuper'/>
         <page name='2-FixRetainSuper'/>
@@ -14,5 +14,12 @@
         <page name='11-HighOrderFunctions'/>
         <page name='12_XCExpectation'/>
         <page name='13_CustomError'/>
+        <page name='14-OpaqueType'/>
+        <page name='15-AnyPublisher'/>
+        <page name='16-Deadlock'/>
+        <page name='17-NSString'/>
+        <page name='18-Dispatching'/>
+        <page name='19-NSStringMemory'/>
+        <page name='20-Switch'/>
     </pages>
 </playground>
